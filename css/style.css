@@ -1,0 +1,342 @@
+/* RESET CSS  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+/* ULTILITY SELECTION  */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* HEADER  */
+header {
+  padding: 20px 0;
+}
+
+header .header_logo i {
+  font-size: 25px;
+  color: #fdc802;
+  background-color: #002146;
+  padding: 20px;
+  border-radius: 50%;
+}
+header .header_logo span {
+  font-size: 50px;
+  font-weight: bold;
+}
+header .header_logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: #1b1d2d;
+  text-transform: capitalize;
+}
+nav ul li {
+  font-size: 25px;
+  display: inline;
+  margin-right: 20px;
+}
+nav {
+  margin: 20px 30px;
+}
+/* BANNER  */
+.banner {
+  height: 100vh;
+  background-image: url(./../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+/* WELCOME */
+.welcome {
+  padding: 70px 0;
+}
+.welcome .welcome_bg {
+  display: flex;
+  gap: 50px;
+}
+.welcome .welcome_content h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  color: #1b1d2d;
+}
+.welcome .welcome_content p {
+  color: #797979;
+  margin-top: 15px;
+}
+.welcome .welcome_content button {
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #002146;
+  background-color: #fdc802;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* NUMBER  */
+.number {
+  padding: 70px 0;
+  background-color: #f6f6f6;
+}
+.number .number_bg {
+  display: flex;
+  justify-content: space-between;
+}
+.number .number_bg .number_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #212529;
+}
+.number .number_item p {
+  font-size: 60px;
+  font-weight: bold;
+}
+.number .number_item span {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* MENU  */
+.menu {
+  padding: 100px 0;
+}
+
+.menu .menu_bg .menu_line1 {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.menu .menu_bg .menu_line2 {
+  display: flex;
+  gap: 20px;
+}
+.menu .menu_item {
+  text-transform: capitalize;
+  width: 25%;
+  background-color: #002146;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 5px;
+}
+.menu .menu_item i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* POSTS AND EVENTS  */
+.poev {
+  padding: 100px 0;
+  background-color: #f6f6f6;
+}
+.poev_bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+.post {
+  width: 50%;
+}
+.event {
+  width: 50%;
+}
+/* POST  */
+/* heading h1  */
+.poev h1 {
+  color: #1b1d2d;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
+/* post item  */
+.post .post_item_bg {
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+.post .post_item {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0;
+}
+.post .post_item:last-child {
+  border-bottom: none;
+}
+.post .post_img {
+  width: 50%;
+}
+.post .post_img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.post h2 {
+  color: #1b1d2d;
+  text-transform: capitalize;
+}
+.post span {
+  color: #939393;
+  text-transform: capitalize;
+  line-height: 40px;
+}
+.post p {
+  color: #585858;
+  line-height: 23px;
+}
+/* BUTTON  */
+/* .post button {
+  padding: 20px 40px;
+  color: #002146;
+  background-color: #fdc802;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.post .button {
+  display: flex;
+  justify-content: flex-end;
+} */
+/* EVENT  */
+/* EVENT ITEM  */
+.event_item {
+  padding: 30px;
+  background-color: white;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 10px;
+}
+/* EVENT DMY  */
+.event_dmt {
+  display: flex;
+}
+.event_item .event_dmy .dm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdc802;
+  color: #1b1d2d;
+  padding: 10px 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.event_item .event_dmy .y {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002146;
+  color: white;
+  padding: 10px 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.event_item .event_dmy .dm p {
+  font-size: 40px;
+  font-weight: bold;
+}
+.event_item .event_dmy .dm span {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.event_item .event_dmy .y p {
+  font-size: 20px;
+}
+/* EVENT CONTENT  */
+.event_content p {
+  color: #585858;
+  margin: 20px 0 10px;
+  line-height: 23px;
+}
+.event_org {
+  color: #002146;
+  text-transform: capitalize;
+  text-align: left;
+}
+.event_org .border_right {
+  padding: 5px 0px;
+  padding-right: 20px;
+  border-right: 1px solid #bdbdbd;
+}
+.event_org span {
+  padding: 5px 15px;
+}
+
+.poev button {
+  padding: 20px 40px;
+  color: #002146;
+  background-color: #fdc802;
+  border: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.poev .button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* FOOTER  */
+footer {
+  padding: 100px 0;
+  background-color: #002146;
+  color: white;
+}
+footer ul li {
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer h2 {
+  font-size: 30px;
+  font-weight: 450;
+  text-transform: capitalize;
+  margin: 30px 0;
+}
+footer .featured_links a {
+  text-transform: capitalize;
+}
+footer .quick_links a {
+  text-transform: capitalize;
+}
+footer .footer_bg i {
+  color: #fdc802;
+}
+footer .footer_bg {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #454545;
+}
+footer .footer_bg_item {
+  width: calc(100% / 3);
+}
+footer .copyright {
+  margin-top: 30px;
+  font-size: 25px;
+}
+footer .copyright a {
+  color: #cccccc;
+}
